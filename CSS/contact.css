@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #F0EFE9;
+  height: 120px;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+header .Container {
+  display: flex;
+  padding-left: 318px;
+  padding-top: 20px;
+  gap: 75px;
+}
+header .topbox {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #DAD9D3;
+}
+header .topbox .contact {
+  display: flex;
+  gap: 56px;
+  padding-right: 353px;
+}
+header .topbox .socialmedia {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+header .topbox .socialmedia a {
+  color: black;
+}
+header .topbox .socialmedia a:hover {
+  color: #F9D783;
+}
+header .bottombox {
+  display: flex;
+  align-items: baseline;
+}
+header .bottombox .menubuttons {
+  display: flex;
+  margin-top: 20px;
+  gap: 35px;
+  padding-right: 740px;
+}
+header .bottombox .menubuttons a:hover {
+  font-weight: 500;
+  text-decoration: underline;
+}
+header .bottombox .loginButton {
+  background-color: #F9D783;
+  border: #F9D783;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+header .bottombox .loginButton:hover {
+  background-color: rgb(0, 0, 0);
+  color: #F9D783;
+}
+
+section {
+  width: 1920px;
+  height: 1592px;
+}
+section a {
+  color: black;
+  text-decoration: none;
+}
+section .bigbox {
+  border: 1px solid #F0EFE9;
+  width: 1920px;
+  height: 300px;
+  background-color: #F0EFE9;
+}
+section .bigbox .mid-box {
+  border: 1px solid #F0EFE9;
+  width: 366px;
+  height: 102px;
+  margin: auto;
+  margin-top: 105px;
+}
+section .bigbox .mid-box .button-box {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+section .bigbox .mid-box .button-box a {
+  color: black;
+  font-size: 16px;
+}
+section .bigbox .mid-box .button-box a:hover {
+  font-weight: 500;
+}
+section .bigbox .mid-box .rubrik-box {
+  display: flex;
+  justify-content: center;
+}
+section .bigbox .mid-box .rubrik-box h1 {
+  font-size: 56px;
+}
+section .contact-us-bigbox {
+  border: 1px solid white;
+  width: 1320px;
+  height: 206px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 120px;
+}
+section .contact-us-bigbox .box {
+  width: 420px;
+  height: 206px;
+}
+section .contact-us-bigbox .box .cu-symbol {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 50px;
+  gap: 27px;
+}
+section .contact-us-bigbox .box .cu-symbol i {
+  font-size: 40px;
+}
+section .leave-message {
+  border: 1px solid #F0EFE9;
+  background-color: #F0EFE9;
+  width: 1320px;
+  height: 766px;
+  margin: auto;
+  margin-top: 80px;
+}
+section .leave-message .lm-text {
+  width: 441px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 125px;
+}
+section .leave-message .lm-searchbox {
+  margin-top: 25px;
+  margin-left: 150px;
+}
+section .leave-message .lm-searchbox input {
+  border: none;
+  outline: none;
+}
+section .leave-message .lm-searchbox .lm-search {
+  margin-top: 15px;
+}
+section .leave-message .lm-searchbox .lm-search input {
+  padding: 15px 420px;
+  border-radius: 30px;
+}
+section .leave-message .lm-searchbox .lm-searchbig {
+  margin-top: 15px;
+}
+section .leave-message .lm-searchbox .lm-searchbig input {
+  padding: 50px 420px;
+  border-radius: 30px;
+}
+section .leave-message .lm-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+section .leave-message .lm-button a {
+  background-color: #F9D783;
+  color: black;
+  padding: 15px 450px;
+  border-radius: 30px;
+}
+section .leave-message .lm-button a:hover {
+  background-color: black;
+  color: #F9D783;
+}
+section .map {
+  width: 1920px;
+  height: 620px;
+  margin-top: 120px;
+}
+
+footer {
+  margin-top: 620px;
+}
+footer .footer-bigbox {
+  border: 1px solid #0E1021;
+  width: 1920px;
+  background-color: #0E1021;
+}
+footer .footer-bigbox .footer-topbox {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 113px;
+  gap: 107px;
+}
+footer .footer-bigbox .footer-topbox .footer-logotype {
+  width: 309px;
+  height: 208px;
+}
+footer .footer-bigbox .footer-topbox .footer-logotype p {
+  margin-top: 30px;
+  color: #ABACB2;
+  font-size: 16px;
+}
+footer .footer-bigbox .footer-topbox .footer-about {
+  display: flex;
+  gap: 115px;
+  margin-top: 18px;
+}
+footer .footer-bigbox .footer-topbox .footer-about .box {
+  width: 156px;
+  height: 213px;
+}
+footer .footer-bigbox .footer-topbox .footer-about .box h5 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 47px;
+}
+footer .footer-bigbox .footer-topbox .footer-about .box .footer-buttons div {
+  margin-top: 15px;
+}
+footer .footer-bigbox .footer-topbox .footer-about .box .footer-buttons a {
+  color: #ABACB2;
+  font-size: 16px;
+}
+footer .footer-bigbox .footer-line {
+  color: grey;
+  margin-top: 88px;
+}
+footer .footer-bigbox .footer-last {
+  width: 1323px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+footer .footer-bigbox .footer-last p {
+  color: #ABACB2;
+}
+footer .footer-bigbox .footer-last .footer-socialmedia a {
+  color: white;
+  margin-left: 25px;
+}
+footer .footer-bigbox .footer-last .footer-socialmedia a:hover {
+  color: #F9D783;
+}
